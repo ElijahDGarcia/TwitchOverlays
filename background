@@ -6,7 +6,7 @@
 }
 
 .sliding-background {
-  background: url("..path/to/image") repeat-x;
+  background: url(https://github.com/ElijahDGarcia/TwitchOverlays/blob/main/robofaces.png?raw=true) repeat-x;
   height: 1920px;
   width: 1080px;
   animation: slide 60s linear infinite;
