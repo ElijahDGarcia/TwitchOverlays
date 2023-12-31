@@ -1,0 +1,25 @@
+.container {
+  width: 1920px;
+  height: 1080px; /* Adjust height as needed */
+  overflow: hidden;
+  position: relative; /* Ensures proper positioning of children */
+}
+
+.sliding-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1080px;
+  height: 1920px;
+  background: url(https://github.com/ElijahDGarcia/TwitchOverlays/blob/main/robofaces.png?raw=true) repeat-y;
+  animation: slide 60s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, -1920px, 0);
+  }
+}
